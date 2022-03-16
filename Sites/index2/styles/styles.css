@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(34, 34, 34);
+    background-image: url("../imagens/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: red
+}
+a:hover{
+    color: rgb(143, 81, 143)
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+p{
+    max-width: 500px;
+    line-height: 30px;
+}
